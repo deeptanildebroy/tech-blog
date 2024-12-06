@@ -12,13 +12,7 @@ function TestMonaco() {
 
   return (
     <div className="h-screen flex items-center justify-center">
-      <MonacoEditor
-        width="400px"
-        height="400px"
-        language="python"
-        defaultValue={snippet}
-        onChange={(e) => setSnippet(value)}
-      />
+      <h1>Test</h1>
     </div>
   );
 }
